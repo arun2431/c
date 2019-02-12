@@ -4,6 +4,8 @@ int main()
 {
    char a;
    scanf("%c",&a);
+   if(a>='a' && a<='z')
+   {
    if(a=='a')
    printf("Vowel");
    else if(a=='e')
@@ -16,5 +18,8 @@ int main()
    printf("Vowel");
    else
    printf("Consonant");
+   }
+   else
+   printf("Invalid");
     return 0;
 }
