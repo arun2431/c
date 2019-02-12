@@ -12,7 +12,7 @@ int main()
   }
   for(j=0;j<i;j++)
   {
-      printf("%d\t%d",a[j],j);
+      printf("%d\t%d\n",a[j],j);
   }
  return 0;
 }
