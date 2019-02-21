@@ -2,8 +2,8 @@
  
 int main(void) {
 	// your code goes here
-	int i,j,n,b[10],t=0,s;
-	b[0]=0;
+	int i,j,n,b[10]={0},t=0,s,f=0;
+	
 	scanf("%d",&n);
 	int a[n];
 	for(i=0;i<n;i++)
@@ -16,6 +16,7 @@ int main(void) {
 		{
 			b[t]=a[i];
 			t++;
+			f=1;
 		}
 	}
 
@@ -32,7 +33,7 @@ int main(void) {
 			}
 		}
 	}
-	 if(b[0]==0)
+	 if(f==0)
 	 printf("-1");
 	 else
 	 {
